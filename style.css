@@ -20,5 +20,6 @@ body, html {
     color: white;
     text-decoration: none;
     font-family: Arial, sans-serif;
+    font-weight:700;
     transition: color 0.2s;
 }
