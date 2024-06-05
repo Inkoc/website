@@ -1,0 +1,24 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+
+.container {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+
+#logo {
+    position: absolute;
+    font-size: 5em;
+    color: white;
+    text-decoration: none;
+    font-family: Arial, sans-serif;
+    transition: color 0.2s;
+}
