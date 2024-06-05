@@ -27,9 +27,15 @@ document.addEventListener('DOMContentLoaded', (event) => {
             ySpeed = -ySpeed;
             logo.style.color = getRandomColor();
         }
+        
+        if (logo.style.display = "none"){
+            logo.style.display = "flex"
+        }
+        
 
         logo.style.transform = `translate(${x}px, ${y}px)`;
     }
 
     setInterval(moveLogo, 10);
+
 });
